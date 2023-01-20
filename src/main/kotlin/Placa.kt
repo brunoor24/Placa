@@ -40,7 +40,7 @@ fun sizeLicPlateTest(): Boolean {
 }
 
 fun sizeLicPlate2Test(): Boolean {
-    val res = sizeLicPlate("EAA-89890")
+    val res = sizeLicPlate("EAA-8989")
     val esp= true
     return ( esp == res)
 }
@@ -51,7 +51,7 @@ fun dashSeparateTest(): Boolean {
 }
 
 fun dashSeparateTest2(): Boolean {
-    val res = dashSeparate("AAA8989")
+    val res = dashSeparate("AAA-8989")
     val esp= true
     return ( esp == res)
 }
